@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picverse - Gallery</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="icon" type="image/png" href="../Asset/Picverse Logo.png">
+</head>
+<body>
+    <header>
+        <a href="Home.html" class="logo">
+            <img src="../Asset/Picverse Logo.png" alt="">
+            Picverse
+        </a>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="nav-bar" id="nav-menu">
+            <a href="Home.html">Home</a>
+            <a href="Gallerydigitalart.html" class="selected">Gallery</a>
+            <a href="Submission.html">Submission</a>
+            <a href="Community.html">Community</a>
+            <a href="Aboutus.html">About Us</a>
+        </nav>
+    </header>
+
+    <content>
+        <div class="tags-container-gallery">
+            <a href="Gallerydigitalart.html"class="selected">#digitalart</a>
+            <a href="GalleryAIart.html">#AIart</a>
+            <a href="Gallerypotrait.html">#potrait</a>
+        </div>
+        <div class="featured-artworks">
+            <div class="list-of-artworks">
+                <div class="artwork"data-id="0" onclick = "openModal(
+                    '../Asset/Features Artwork & Gallery/Steve-Simpson-1-1-750x498.jpg', 
+                    'Let Your Dreams Fly', 
+                    '../Asset/Features Artwork & Gallery/Steve-Simpson-5.jpg',
+                    'Steve Simpson',
+                    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi magni dicta quam aperiam hic neque et corrupti delectus doloremque pariatur, in obcaecati voluptatibus facere harum deserunt quaerat quibusdam officiis. Error?', 
+                    '263', 
+                    '0'
+                )">
+                    <img src="../Asset/Features Artwork & Gallery/Steve-Simpson-1-1-750x498.jpg" alt="">
+                    <h3>Let Your Dreams Fly</h3>
+                    <div class="artist">
+                        <img src="../Asset/Features Artwork & Gallery/Steve-Simpson-5.jpg" alt="">
+                        <span>Steve Simpson</span>
+                    </div>
+                    <div class="likes">
+                        <button class="like-btn">&#10084;</button>
+                        <div class="like-count">263</div>
+                    </div>
+                </div>
+                <div class="artwork" data-id="1" onclick = "openModal(
+                    '../Asset/Features Artwork & Gallery/MUTI-2-750x498.jpg', 
+                    'The Reef', 
+                    '../Asset/Features Artwork & Gallery/MUTI-5.jpg',
+                    'MUTI',
+                    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi magni dicta quam aperiam hic neque et corrupti delectus doloremque pariatur, in obcaecati voluptatibus facere harum deserunt quaerat quibusdam officiis. Error?', 
+                    '368', 
+                    '1'
+                )">
+                    <img src="../Asset/Features Artwork & Gallery/MUTI-2-750x498.jpg" alt="">
+                    <h3>The Reef</h3>
+                    <div class="artist">
+                        <img src="../Asset/Features Artwork & Gallery/MUTI-5.jpg" alt="">
+                        <span>MUTI</span>
+                    </div>
+                    <div class="likes">
+                        <button class="like-btn">&#10084;</button>
+                        <div class="like-count">368</div>
+                    </div>
+                </div>
+                <div class="artwork" data-id="2" onclick = "openModal(
+                    '../Asset/Features Artwork & Gallery/mbsjq-5-750x498.jpg', 
+                    'Yours Truly', 
+                    '../Asset/Features Artwork & Gallery/mbsjq-1.jpg',
+                    'mbsjq',
+                    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi magni dicta quam aperiam hic neque et corrupti delectus doloremque pariatur, in obcaecati voluptatibus facere harum deserunt quaerat quibusdam officiis. Error?', 
+                    '249', 
+                    '2'
+                )">
+                    <img src="../Asset/Features Artwork & Gallery/mbsjq-5-750x498.jpg" alt="">
+                    <h3>Yours Truly</h3>
+                    <div class="artist">
+                        <img src="../Asset/Features Artwork & Gallery/mbsjq-1.jpg" alt="">
+                        <span>mbsjq</span>
+                    </div>
+                    <div class="likes">
+                        <button class="like-btn">&#10084;</button>
+                        <div class="like-count">249</div>
+                    </div>
+                </div>
+                <div class="artwork" data-id="3" onclick = "openModal(
+                    '../Asset/Features Artwork & Gallery/Ori-Toor-1-750x498.jpg', 
+                    'Gibberish Exploration', 
+                    '../Asset/Features Artwork & Gallery/Ori-Toor-4.jpg',
+                    'Ori Toor',
+                    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi magni dicta quam aperiam hic neque et corrupti delectus doloremque pariatur, in obcaecati voluptatibus facere harum deserunt quaerat quibusdam officiis. Error?', 
+                    '305', 
+                    '3'
+                )">
+                    <img src="../Asset/Features Artwork & Gallery/Ori-Toor-1-750x498.jpg" alt="">
+                    <h3>Gibberish Exploration</h3>
+                    <div class="artist">
+                        <img src="../Asset/Features Artwork & Gallery/Ori-Toor-4.jpg" alt="">
+                        <span>Ori Toor</span>
+                    </div>
+                    <div class="likes">
+                        <button class="like-btn">&#10084;</button>
+                        <div class="like-count">305</div>
+                    </div>
+                </div>
+                <div class="artwork" data-id="4" onclick = "openModal(
+                    '../Asset/Features Artwork & Gallery/Matt-Schu-1.jpg', 
+                    'Vacant Lot', 
+                    '../Asset/Features Artwork & Gallery/Matt-Schu-5.jpg',
+                    'Matt Schu',
+                    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi magni dicta quam aperiam hic neque et corrupti delectus doloremque pariatur, in obcaecati voluptatibus facere harum deserunt quaerat quibusdam officiis. Error?', 
+                    '344', 
+                    '4'
+                )">
+                    <img src="../Asset/Features Artwork & Gallery/Matt-Schu-1.jpg" alt="">
+                    <h3>Vacant Lot</h3>
+                    <div class="artist">
+                        <img src="../Asset/Features Artwork & Gallery/Matt-Schu-5.jpg" alt="">
+                        <span>Matt Schu</span>
+                   </div>
+                    <div class="likes">
+                        <button class="like-btn">&#10084;</button>
+                        <div class="like-count">344</div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </content>
+
+    <footer>
+        <div class="footer-container">
+            <nav class="footer-nav">
+                <a href="Home.html">Home</a>
+                <a href="Gallerydigitalart.html">Gallery</a>
+                <a href="Submission.html">Submission</a>
+                <a href="Community.html">Community</a>
+                <a href="Aboutus.html">About Us</a>
+            </nav>
+            <a href="Home.html" class="logo-nav">
+                <img src="../Asset/Picverse Logo.png" alt="">
+                Picverse
+            </a>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2025 Picverse.&nbsp;All rights reserved.
+        </div>
+    </footer>
+
+    <div id="artModal" class="modal" data-id="">  
+        <div class="modal-body">
+            <span class="close">&times;</span>
+            <img id="modalImage" src="" alt="" class="Picture">
+            <div class="modal-info">
+                <h2 id="modalTitle">Title</h2>
+                <div class="modal-artist">
+                    <img id="modalProfile" src="" alt="" class="profilePic">
+                    <p id="modalAuthor">Author</p>
+                </div>
+                <p id="modalDesc" class="modalDesc">Description</p>
+                <div class="likes">
+                    <button class="like-btn">&#10084;</button>
+                    <div class="like-count" id="modalLikes"></div>
+                </div>
+            </div>
+        </div>     
+    </div>
+    
+    <script src="../JavaScript/ScriptHamburger.js"></script>
+    <script src="../JavaScript/Scriptgallery.js"></script>
+</body>
+</html>
